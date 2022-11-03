@@ -1,0 +1,15 @@
+= 04 Integration Testing (5)
+
+* Present the slides, show that we're in a different part of the pyramid
+* Write `PersonClient` an interface to fetch a `Person` via `id`
+* Write `Person` that has `name`, `surname`
+* Write a `PersonService` that will return a list of people ia `PersonClient`
+* Write an implementation `HttpPersonClient` that will use `RestTemplate` to get the `Person`
+* Setup the configuration
+* Show that the beans are setup properly
+* Now try to test it - ConnectionRefused
+* Different ways to fix it, one of which will be to do
+** onion layered architecture
+** we will work with sending the real request
+** but let's say we want to return a fixed value of people
+** create your own `@Configuration` that extends the production one and overrides the bean

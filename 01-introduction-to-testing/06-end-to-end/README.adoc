@@ -1,0 +1,16 @@
+= 06 End to End (5)
+
+* Present the slides, show that we're in a different part of the pyramid
+* Very difficult subject cause with microservices you need to set up a lot of apps
+* The tests are brittle and are difficult to debug
+* The feedback cycle is much slower
+* Show server
+** Show that we build a Docker image
+* Show client
+** Show that URL is parametrized
+** Show that we build a Docker image
+* Show tests
+** Show `docker-compose.yml`
+** Explain what https://testcontainers.org/ are
+** Show the dependency and show the test
+** Run the test and show the output

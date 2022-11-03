@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/06-fail-http/demo/car-rental/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-fail-http/demo/fraud-detection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-fail-http/done/car-rental/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-fail-http/done/fraud-detection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-fail-messaging/demo/car-rental/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-fail-messaging/demo/fraud-detection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-fail-messaging/done/car-rental/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-fail-messaging/done/fraud-detection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-stub-you-dont-own/stubs-with-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-stub-you-dont-own/tests/src/main/java" charset="UTF-8" />
+  </component>
+</project>

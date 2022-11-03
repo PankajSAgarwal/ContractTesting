@@ -1,0 +1,14 @@
+= 03 Testing Spring Boot (5)
+
+* Generate a project from `start.spring.io`
+* Write the `PersonFetcher` class (Deliberately use field injection)
+* Write the `Person` class
+* Write the `PersonPrinter` class
+* Show the basic Spring Boot test
+* `@Autowire` `PersonFetcher` and assert the response
+* Explain that it boots up the whole context, it's slower than it should be
+* Emphasise that field injection is evil - it forces you to start the whole context
+* Do we actually need any Spring features? Why do those classes even know anything about Spring?
+* Constructor injection, separate bean generation to `@Configuration`
+* Now you can use the configuration class, or set the beans manually
+* Time... 120 ms vs ~0 ms

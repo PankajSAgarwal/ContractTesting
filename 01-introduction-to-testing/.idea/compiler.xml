@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01-08-car-rental" />
+        <module name="01-04-demo" />
+        <module name="01-01-demo" />
+        <module name="01-05-done" />
+        <module name="01-01-done" />
+        <module name="01-07-fraud_detection" />
+        <module name="01-08-fraud-detection" />
+        <module name="01-03-done" />
+        <module name="01-03-demo" />
+        <module name="01-06-server" />
+        <module name="01-07-car-rental" />
+        <module name="01-06-tests" />
+        <module name="01-02-demo" />
+        <module name="01-02-done" />
+        <module name="01-06-client" />
+        <module name="01-04-done" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-02-demo" options="-parameters" />
+      <module name="01-02-done" options="-parameters" />
+      <module name="01-03-demo" options="-parameters" />
+      <module name="01-03-done" options="-parameters" />
+      <module name="01-04-demo" options="-parameters" />
+      <module name="01-04-done" options="-parameters" />
+      <module name="01-05-done" options="-parameters" />
+      <module name="01-06-client" options="-parameters" />
+      <module name="01-06-server" options="-parameters" />
+      <module name="01-06-tests" options="-parameters" />
+      <module name="01-07-car-rental" options="-parameters" />
+      <module name="01-07-fraud_detection" options="-parameters" />
+      <module name="01-08-car-rental" options="-parameters" />
+      <module name="01-08-fraud-detection" options="-parameters" />
+    </option>
+  </component>
+</project>

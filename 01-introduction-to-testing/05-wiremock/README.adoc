@@ -1,0 +1,23 @@
+= 05 WireMock (5)
+
+* Present the slides, show that we're in the same part of the pyramid
+* Show the client side and explain that another option would be to start the HTTP server
+* One of the tools to do that is called WireMock - http://wiremock.org
+* Show the request / reply thing from the website
+* You can do it either via JSON or via code (that gets translated to JSON anyways)
+* Run the test that will do connection refused
+* Setup WireMock
+** Show method rule and class rule
+** Setup the code
+```java
+		this.rule.stubFor(WireMock.get("/person/1")
+				.willReturn(WireMock.aResponse()
+						.withHeader("Content-Type", "application/json")
+						.withBody("{\"name\":\"m1\"}")));
+		this.rule.stubFor(WireMock.get("/person/2")
+				.willReturn(WireMock.aResponse()
+						.withHeader("Content-Type", "application/json")
+						.withBody("{\"name\":\"m2\"}")));
+```
+* Test passes
+* Show Rest Assured - http://rest-assured.io/

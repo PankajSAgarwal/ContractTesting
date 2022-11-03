@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.example</groupId>
+		<artifactId>contract-testing-parent</artifactId>
+		<version>0.0.1.BUILD-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<artifactId>01-introduction-to-testing</artifactId>
+	<packaging>pom</packaging>
+
+	<name>01-introduction-to-testing</name>
+	<description>01-introduction-to-testing</description>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<modules>
+		<module>01-unit-tests/done</module>
+		<module>01-unit-tests/unit-tests</module>
+		<module>02-spring-boot/demo</module>
+		<module>02-spring-boot/done</module>
+		<module>03-testing-spring-boot/demo</module>
+		<module>03-testing-spring-boot/done</module>
+		<module>04-integration-testing/demo</module>
+		<module>04-integration-testing/done</module>
+		<module>05-wiremock/done</module>
+		<module>06-end-to-end</module>
+		<module>07-why-http/fraud-detection</module>
+		<module>07-why-http/car-rental</module>
+		<module>08-why-messaging/fraud-detection</module>
+		<module>08-why-messaging/car-rental</module>
+	</modules>
+
+</project>

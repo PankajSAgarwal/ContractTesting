@@ -1,0 +1,4 @@
+= 06 Make the HTTP sample fail with contract tests (10)
+
+Second part of the presentation
+

@@ -1,0 +1,12 @@
+version: '2.0'
+
+services:
+  client:
+    image: 01-06-client
+    ports:
+      - 9876:9876
+    environment:
+      PERSON_SERVER_URL: server
+      PERSON_SERVER_PORT: 8765
+  server:
+    image: 01-06-server

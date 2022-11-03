@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="02-06-car-rental_done" />
+        <module name="02-06-fraud-detection-done" />
+        <module name="02-08-stub-you-dont-own" />
+        <module name="02-06-car-rental" />
+        <module name="02-07-car-rental-done" />
+        <module name="02-08-tests" />
+        <module name="02_07_car_rental" />
+        <module name="02-07-fraud-detection-done" />
+        <module name="02-06-fraud-detection" />
+        <module name="02_07_fraud_detection" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="02-06-car-rental" options="-parameters" />
+      <module name="02-06-car-rental_done" options="-parameters" />
+      <module name="02-06-fraud-detection" options="-parameters" />
+      <module name="02-06-fraud-detection-done" options="-parameters" />
+      <module name="02-07-car-rental-done" options="-parameters" />
+      <module name="02-07-fraud-detection-done" options="-parameters" />
+      <module name="02-08-stub-you-dont-own" options="-parameters" />
+      <module name="02-08-tests" options="-parameters" />
+      <module name="02_07_car_rental" options="-parameters" />
+      <module name="02_07_fraud_detection" options="-parameters" />
+    </option>
+  </component>
+</project>

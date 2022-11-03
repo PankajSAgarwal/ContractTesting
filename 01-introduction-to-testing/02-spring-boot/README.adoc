@@ -1,0 +1,20 @@
+= 02 Spring Boot (10)
+
+* Show the slides (what Spring Boot is)
+* Show start.spring.io
+** Explain what sections mean
+** Show how to expand
+** Generate a WEB project
+* Show that you can do it from CLI and IDE
+* Show how it corresponds to the entries in the `pom.xml` / `build.gradle`
+* Create a simple controller
+```java
+@RestController
+class MyController {
+	@GetMapping("/foo")
+	String foo() {
+		return "foo";
+	}
+}
+
+```

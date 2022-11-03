@@ -1,0 +1,23 @@
+= 08 Create stubs of projects that you don't own (10)
+
+== Before
+
+* Comment out `@AutoConfigureStubRunner` in the test
+
+== Presentation
+
+* Slides
+* Show the `tests` project that access Stripe API
+* Show the Stripe dependency in the `pom.xml`
+* Explain that Stripe can be accessed form the command line
+* We don't have any control over stubbing, what can we do?
+** Show a failing test that tries to access local instance of Stripe - it's not there
+** Use a proxy!
+* Show the `stubs-with-proxy`
+** show the test, explain it from the high level
+** show the base class, go through it, explain how stubs are dumped
+** run the test, show the stubs
+** explain the `assembly-plugin` setup
+** show the packaged stubs
+* Go back to `tests`, add `stub-runner`
+* Run the tests and show that the tests no longer fail

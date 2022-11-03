@@ -1,0 +1,25 @@
+= 01 Unit Tests (5)
+
+* Describe what a unit test is
+* Execute the script to generate a Maven project from an archetype and create a wrapper
+[source]
+-----
+include::generate.sh[]
+-----
+* Explain why wrapper is important
+* Bump version to `junit:4.12` (the most commonly used)
+* Add AssertJ
+[source,xml]
+----
+<dependency>
+  <groupId>org.assertj</groupId>
+  <artifactId>assertj-core</artifactId>
+  <version>3.10.0</version>
+  <scope>test</scope>
+</dependency>
+----
+* State that we would TDD but let's say that you already have some code.
+* Write `MyFactory`, `Country`, `Person` and `PersonBuilder`.
+* Write a test for the behaviour using BDD style
+* Explain that in this case my unit is a set of 2 or more classes.
+There is no point in testing that separately
